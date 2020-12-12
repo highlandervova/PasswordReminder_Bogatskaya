@@ -1,4 +1,3 @@
 instalog instapas instagram
 gitlog gitpas github
 youtubelog youtubepas youtube
-test2 G7gL5Eg test2.com

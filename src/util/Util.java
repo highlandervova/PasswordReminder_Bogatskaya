@@ -16,7 +16,6 @@ public class Util {
     public static void addRecord(Record record) {
         try(FileWriter fileWriter = new FileWriter(new File("records.txt"), true)) {
             String newRec = record.getLogin() + " " + record.getPassword() + " " + record.getResource();
-            System.out.println(newRec);
             fileWriter.write("\n" + newRec);
         } catch (IOException e) {
             e.printStackTrace();
